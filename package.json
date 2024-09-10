@@ -1,15 +1,17 @@
 {
   "name": "twilio-poc",
   "version": "1.0.0",
-  "description": "Twilio POC",
+  "description": "Twilio POC",  
+  "type":"module",
   "main": "index.js",
   "scripts": {
-    "sendSMS": "node index.js"
+    "sendSMS": "node index.js",
+    "getUsageSMS": "node getUsageSMS.js"
   },
   "author": "Théo LAPERROUSE",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.4.5",
-    "twilio": "^5.3.0"
+    "dotenv": "16.4.5",
+    "twilio": "5.3.0"
   }
 }
